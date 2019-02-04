@@ -84,9 +84,8 @@ msg headers. So for the following message headers we expect the corresponding
 output topic:
 
 | JMS Headers                 | Output Topic            |
-+-----------------------------|-------------------------+
+|-----------------------------|-------------------------|
 | AcctType=LOAN, AcctID=54321 | transactions/LOAN/54321 |
 | AcctType=BANK, AcctID=11111 | transactions/BANK/11111 |
-+-------------------------------------------------------+
 
 Which consumers can take advantage of for filtering and fan-out.
